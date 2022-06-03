@@ -12,15 +12,21 @@ STEP 1: Put the project folder in htdoc inside the xampp folder
 STEP 2: Import the sql file form phpMyAdmin
 
 
+
 REST API's
 
 1: REST API to upload the file and save the data into Database.
 
 URL: localhost/DigitalBank/uploadDataByJson.php
+
 Method: POST[Multi-part form data]
+
 Feild details:
+
 key:trade
+
 value: "file_name.csv" (Input type: File)
+
 
 
 2: REST API to add individual trade records using JSON request.
@@ -47,6 +53,9 @@ Request JSON Sample:
     "Trade_Date_Time" : "01/06/2022 10:30:52"
 }
 
+
+
+
 3: REST API to get all trade records.
 
 URL: localhost/DigitalBank/getcustomerdata.php [EX:localhost/DigitalBank/getcustomerdata.php]
@@ -54,7 +63,8 @@ URL: localhost/DigitalBank/getcustomerdata.php [EX:localhost/DigitalBank/getcust
 Method: GET
 
 
-3: REST API to get trade records by using FrontDeskOfficerId and Date.
+
+4: REST API to get trade records by using FrontDeskOfficerId and Date.
 
 URL: localhost/DigitalBank/getRecordById.php?FrontDeskOfficerId={FrontDeskOfficerId}&date={date}
 
