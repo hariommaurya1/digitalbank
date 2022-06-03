@@ -1,5 +1,5 @@
 <?php
-$con = mysqli_connect("localhost", 'root', '', 'digitalbank_db');
+include 'db_connect.php';
 
 $data = file_get_contents('php://input');
 $data = json_decode($data);

@@ -1,8 +1,7 @@
 <?php
+include 'db_connect.php';
 
-$con = mysqli_connect("localhost", 'root', '', 'digitalbank_db');
-
-$ser_file_path = "upload/acc_" . $_FILES["trade"]["name"];
+$ser_file_path = "upload/" . $_FILES["trade"]["name"];
 move_uploaded_file($_FILES["trade"]["tmp_name"], $ser_file_path);
 
 $scount = 0;
