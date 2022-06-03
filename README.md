@@ -23,8 +23,11 @@ value: "file_name.csv" (Input type: File)
 2: REST API to add individual trade records using JSON request.
 
 URL: localhost/DigitalBank/uploadDataByJson.php
+
 Method: POST
+
 Request JSON Sample:
+
 {
     "Order_No" : "O234452",
     "Share_Name" : "TCS",
