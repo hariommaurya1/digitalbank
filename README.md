@@ -42,10 +42,16 @@ Request JSON Sample:
 }
 
 3: REST API to get all trade records.
+
 URL: localhost/DigitalBank/getcustomerdata.php [EX:localhost/DigitalBank/getcustomerdata.php]
+
 Method: GET
 
+
 3: REST API to get trade records by using FrontDeskOfficerId and Date.
+
 URL: localhost/DigitalBank/getRecordById.php?FrontDeskOfficerId={FrontDeskOfficerId}&date={date}
+
 URL Example: localhost/DigitalBank/getRecordById.php?FrontDeskOfficerId=103&date=2022-05-11 [dateformate: yyyy-mm-dd]
+
 Method: GET
