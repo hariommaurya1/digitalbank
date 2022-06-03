@@ -2,11 +2,14 @@
 
 
 Requirement details:
+
 PHP Version 8 or higher
+
 XAMPP
 
 STEP 1: Put the project folder in htdoc inside the xampp folder
-STEP 3: Import the sql file form phpMyAdmin
+
+STEP 2: Import the sql file form phpMyAdmin
 
 
 REST API's
